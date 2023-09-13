@@ -30,21 +30,37 @@ public class SchematronValidator {
                         Недостаточно аргументов для запуска валидации.
                         Необходимо ввести:
                         1. полный адрес схематрона, в котором описаны правила для валидации документа,
-                        2. полный адрес документа, для которого проводится валидация""");
+                        2. полный адрес документа, для которого проводится валидация
+                        3. (необязательный аргумент) адрес директории для отчета по валидации""");
                 System.exit(1);
             }
             String schemaPath = args[0];
             String samplePath = args[1];
+            String reportPath = ".";
 
-            File snth = new File(schemaPath);
-            if (!(new File(schemaPath).exists())) {
+            File smth = new File(schemaPath);
+            if (!(new File(schemaPath).isFile())) {
                 System.out.println("Неверно указан адрес схематрона");
                 System.exit(1);
             }
 
-            if (!(new File(samplePath).exists())) {
+            if (!(new File(samplePath).isFile())) {
                 System.out.println("Неверно указан адрес валидируемого документа");
                 System.exit(1);
+            }
+
+            if (args.length > 2) {
+                reportPath = args[2];
+                if (!(new File(reportPath).isDirectory())
+                        && !((new File(reportPath.substring(0, reportPath.lastIndexOf(FileSystems.getDefault().getSeparator())))).exists()
+                        && reportPath.endsWith(FileSystems.getDefault().getSeparator()))) {
+                    System.out.println("Неверно указан адрес директории для сохранения отчета о валидации");
+                    System.exit(1);
+                }
+            }
+
+            if (!reportPath.endsWith(FileSystems.getDefault().getSeparator())) {
+                reportPath += FileSystems.getDefault().getSeparator();
             }
 
             // modify sample: make urn:hl7-org:v3 not default namespace
@@ -95,12 +111,12 @@ public class SchematronValidator {
                     System.out.println(message + "\n");
                 }
 
-                try (FileWriter fw = new FileWriter("validationMessages.txt", false)) {
+                try (FileWriter fw = new FileWriter(reportPath + "validationMessages.txt", false)) {
                     for (String message: validationMessages) {
                         fw.write(message + "\n");
                     }
                     fw.flush();
-                    System.out.println("Ошибки валидации перечислены в файле validationMessages.txt!");
+                    System.out.println("Ошибки валидации перечислены в файле" + reportPath + "validationMessages.txt!");
                 }
             }
             // create and write validation report
@@ -109,10 +125,10 @@ public class SchematronValidator {
             TransformerFactory tf = TransformerFactory.newInstance();
             Transformer trans = tf.newTransformer();
             StringWriter sw = new StringWriter();
-            try (FileWriter fw = new FileWriter("report.xml", false)) {
+            try (FileWriter fw = new FileWriter(reportPath + "report.xml", false)) {
                 trans.transform(new DOMSource(document), new StreamResult(fw));
                 fw.flush();
-                System.out.println("Отчет о валидации находится в файле report.xml!");
+                System.out.println("Отчет о валидации находится в файле " + reportPath + "report.xml!");
             }
 
 //            unused thing: path to modified document (usually is automatically deleted)
