@@ -16,4 +16,11 @@ public class ValidationResult {
 
     private final String[] validationMessages;
 
+    public boolean isValid() {
+        return isValid;
+    }
+
+    public String[] getValidationMessages() {
+        return validationMessages;
+    }
 }
