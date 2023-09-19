@@ -18,7 +18,7 @@ or
 java -jar .\target\schematron-validator-1.0-SNAPSHOT.jar
 ```
 Path to directory for validation results saving is in file application.properties: reportPath. <br>
-Examples of requests could be found in postman collection.
+Examples of requests could be found in postman collection (link in the beginning of description or in file Validator.postman_collection.json in this repository).
 
 ---
 
@@ -43,4 +43,4 @@ java -jar .\target\schematron-validator-1.0-SNAPSHOT.jar
 Адрес директории, в которую будет сохранен отчет по валидации
 и файл с перечнем ошибок, возникших в процессе валидации, 
 задается в файле application.properties в поле reportPath <br>
-Примеры запросов приведены в коллекции Postman.
+Примеры запросов приведены в коллекции Postman (ссылка в начале описания или файл Validator.postman_collection.json в репозитории).
