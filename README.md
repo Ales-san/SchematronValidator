@@ -43,3 +43,4 @@ java -jar .\target\schematron-validator-1.0-SNAPSHOT.jar
 Адрес директории, в которую будет сохранен отчет по валидации
 и файл с перечнем ошибок, возникших в процессе валидации, 
 задается в файле application.properties в поле reportPath <br>
+Примеры запросов приведены в коллекции Postman.
