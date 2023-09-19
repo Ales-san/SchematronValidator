@@ -1,0 +1,263 @@
+2023-09-19T20:07:16.132+03:00  INFO 24620 --- [main] itworks.group.SchematronValidator        : Starting SchematronValidator using Java 17 with PID 24620 (D:\Programming\JavaProjects\SchematronValidator\target\classes started by User in D:\Programming\JavaProjects\SchematronValidator)
+2023-09-19T20:07:16.148+03:00  INFO 24620 --- [main] itworks.group.SchematronValidator        : No active profile set, falling back to 1 default profile: "default"
+2023-09-19T20:07:17.436+03:00  INFO 24620 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-19T20:07:17.531+03:00  INFO 24620 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 79 ms. Found 1 JPA repository interfaces.
+2023-09-19T20:07:18.559+03:00  INFO 24620 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-09-19T20:07:18.579+03:00  INFO 24620 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-19T20:07:18.580+03:00  INFO 24620 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-19T20:07:18.734+03:00  INFO 24620 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-19T20:07:18.734+03:00  INFO 24620 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2465 ms
+2023-09-19T20:07:18.969+03:00  INFO 24620 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-19T20:07:19.096+03:00  INFO 24620 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-09-19T20:07:19.099+03:00  INFO 24620 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-09-19T20:07:19.354+03:00  INFO 24620 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-19T20:07:19.598+03:00  INFO 24620 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-19T20:07:20.287+03:00  INFO 24620 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-19T20:07:21.098+03:00  INFO 24620 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-19T20:07:21.136+03:00  INFO 24620 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-19T20:07:21.645+03:00  WARN 24620 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-19T20:07:22.204+03:00  INFO 24620 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-19T20:07:22.220+03:00  INFO 24620 --- [main] itworks.group.SchematronValidator        : Started SchematronValidator in 6.828 seconds (process running for 8.314)
+2023-09-19T20:07:22.224+03:00  INFO 24620 --- [main] o.s.boot.SpringApplication               : Starting my application in debug with 3 args
+2023-09-19T20:08:05.809+03:00  INFO 24620 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-19T20:39:28.061+03:00  INFO 15000 --- [main] itworks.group.SchematronValidator        : Starting SchematronValidator using Java 17 with PID 15000 (D:\Programming\JavaProjects\SchematronValidator\target\classes started by User in D:\Programming\JavaProjects\SchematronValidator)
+2023-09-19T20:39:28.071+03:00  INFO 15000 --- [main] itworks.group.SchematronValidator        : No active profile set, falling back to 1 default profile: "default"
+2023-09-19T20:39:29.430+03:00  INFO 15000 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-19T20:39:29.515+03:00  INFO 15000 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 71 ms. Found 1 JPA repository interfaces.
+2023-09-19T20:39:30.475+03:00  INFO 15000 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-09-19T20:39:30.496+03:00  INFO 15000 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-19T20:39:30.496+03:00  INFO 15000 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-19T20:39:30.640+03:00  INFO 15000 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-19T20:39:30.641+03:00  INFO 15000 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2426 ms
+2023-09-19T20:39:30.890+03:00  INFO 15000 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-19T20:39:30.990+03:00  INFO 15000 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-09-19T20:39:30.994+03:00  INFO 15000 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-09-19T20:39:31.242+03:00  INFO 15000 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-19T20:39:31.407+03:00  INFO 15000 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-19T20:39:31.905+03:00  INFO 15000 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-19T20:39:32.736+03:00  INFO 15000 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-19T20:39:32.779+03:00  INFO 15000 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-19T20:39:33.301+03:00  WARN 15000 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-19T20:39:33.841+03:00  INFO 15000 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-19T20:39:33.852+03:00  INFO 15000 --- [main] itworks.group.SchematronValidator        : Started SchematronValidator in 6.494 seconds (process running for 7.726)
+2023-09-19T20:39:33.857+03:00  INFO 15000 --- [main] o.s.boot.SpringApplication               : Starting application with 3 args
+2023-09-19T20:39:50.719+03:00  INFO 15000 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-19T20:39:50.719+03:00  INFO 15000 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-19T20:39:50.721+03:00  INFO 15000 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-09-19T20:39:50.809+03:00  INFO 15000 --- [http-nio-8080-exec-1] i.group.SchematronValidationController   : Request to validate medicine document with id: 186 
+2023-09-19T20:39:54.812+03:00  INFO 15000 --- [http-nio-8080-exec-1] i.group.SchematronValidationController   : Found and load schematron of medicine document with id: 186 
+2023-09-19T20:39:55.199+03:00  INFO 15000 --- [http-nio-8080-exec-1] i.group.SchematronValidationController   : Validated medicine document with id: 186 
+2023-09-19T20:39:55.199+03:00  INFO 15000 --- [http-nio-8080-exec-1] i.group.SchematronValidationController   : Result of validation: false 
+2023-09-19T20:39:55.205+03:00  INFO 15000 --- [http-nio-8080-exec-1] i.group.SchematronValidationController   : Validation messages of document with id 186 are in file D:\Schematron SEMDValidationLogs\d186t20230919203955validationMessages.txt!
+2023-09-19T20:39:55.277+03:00  INFO 15000 --- [http-nio-8080-exec-1] i.group.SchematronValidationController   : Validation report of document with id 186 is in file D:\Schematron SEMDValidationLogs\d186t20230919203955validationMessages.txt!
+2023-09-19T20:42:33.460+03:00  INFO 15000 --- [http-nio-8080-exec-5] i.group.SchematronValidationController   : Request to get schematron of medicine document with id: 186 
+2023-09-19T20:42:51.071+03:00  INFO 15000 --- [http-nio-8080-exec-6] i.group.SchematronValidationController   : Request to create or update schematron of medicine document with id: 186 
+2023-09-19T20:42:51.118+03:00  INFO 15000 --- [http-nio-8080-exec-6] i.group.SchematronValidationController   : Updated schematron of medicine document with id: 186 
+2023-09-19T20:43:07.924+03:00  INFO 15000 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-19T20:59:20.057+03:00  INFO 21948 --- [main] itworks.group.SchematronValidator        : Starting SchematronValidator using Java 17 with PID 21948 (D:\Programming\JavaProjects\SchematronValidator\target\classes started by User in D:\Programming\JavaProjects\SchematronValidator)
+2023-09-19T20:59:20.062+03:00  INFO 21948 --- [main] itworks.group.SchematronValidator        : No active profile set, falling back to 1 default profile: "default"
+2023-09-19T20:59:21.181+03:00  INFO 21948 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-19T20:59:21.265+03:00  INFO 21948 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67 ms. Found 1 JPA repository interfaces.
+2023-09-19T20:59:22.179+03:00  INFO 21948 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-09-19T20:59:22.201+03:00  INFO 21948 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-19T20:59:22.202+03:00  INFO 21948 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-19T20:59:22.328+03:00  INFO 21948 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-19T20:59:22.328+03:00  INFO 21948 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2127 ms
+2023-09-19T20:59:22.530+03:00  INFO 21948 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-19T20:59:22.605+03:00  INFO 21948 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-09-19T20:59:22.609+03:00  INFO 21948 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-09-19T20:59:22.820+03:00  INFO 21948 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-19T20:59:23.002+03:00  INFO 21948 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-19T20:59:23.452+03:00  INFO 21948 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-19T20:59:24.213+03:00  INFO 21948 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-19T20:59:24.241+03:00  INFO 21948 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-19T20:59:24.730+03:00  WARN 21948 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-19T20:59:25.226+03:00  INFO 21948 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-19T20:59:25.239+03:00  INFO 21948 --- [main] itworks.group.SchematronValidator        : Started SchematronValidator in 5.927 seconds (process running for 6.608)
+2023-09-19T20:59:25.245+03:00  INFO 21948 --- [main] o.s.boot.SpringApplication               : Starting application with 3 args
+2023-09-19T21:02:54.109+03:00  INFO 21948 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-19T21:02:54.109+03:00  INFO 21948 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-19T21:02:54.111+03:00  INFO 21948 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-09-19T21:02:54.195+03:00  INFO 21948 --- [http-nio-8080-exec-1] i.group.SchematronValidationController   : Request to create or update schematron of medicine document with id: 110 
+2023-09-19T21:02:54.378+03:00  INFO 21948 --- [http-nio-8080-exec-1] i.group.SchematronValidationController   : Created new schematron of medicine document with id: 110
+2023-09-19T21:03:10.121+03:00  INFO 21948 --- [http-nio-8080-exec-3] i.group.SchematronValidationController   : Request to get schematron of medicine document with id: 110 
+2023-09-19T21:03:24.541+03:00  INFO 21948 --- [http-nio-8080-exec-4] i.group.SchematronValidationController   : Request to validate medicine document with id: 110 
+2023-09-19T21:03:26.911+03:00  INFO 21948 --- [http-nio-8080-exec-4] i.group.SchematronValidationController   : Found and load schematron of medicine document with id: 110 
+2023-09-19T21:03:27.014+03:00  INFO 21948 --- [http-nio-8080-exec-4] i.group.SchematronValidationController   : Validated medicine document with id: 110 
+2023-09-19T21:03:27.015+03:00  INFO 21948 --- [http-nio-8080-exec-4] i.group.SchematronValidationController   : Result of validation: true 
+2023-09-19T21:03:27.066+03:00  INFO 21948 --- [http-nio-8080-exec-4] i.group.SchematronValidationController   : Validation report of document with id: 110 - is in file D:\Schematron SEMDValidationLogs\d110t20230919210327validationMessages.txt!
+2023-09-19T21:03:52.216+03:00  INFO 21948 --- [http-nio-8080-exec-5] i.group.SchematronValidationController   : Request to validate medicine document with id: 110 
+2023-09-19T21:03:53.280+03:00  INFO 21948 --- [http-nio-8080-exec-5] i.group.SchematronValidationController   : Found and load schematron of medicine document with id: 110 
+2023-09-19T21:03:53.343+03:00  INFO 21948 --- [http-nio-8080-exec-5] i.group.SchematronValidationController   : Validated medicine document with id: 110 
+2023-09-19T21:03:53.343+03:00  INFO 21948 --- [http-nio-8080-exec-5] i.group.SchematronValidationController   : Result of validation: false 
+2023-09-19T21:03:53.345+03:00  INFO 21948 --- [http-nio-8080-exec-5] i.group.SchematronValidationController   : Validation messages of document with id: 110 - are in file D:\Schematron SEMDValidationLogs\d110t20230919210353validationMessages.txt!
+2023-09-19T21:03:53.382+03:00  INFO 21948 --- [http-nio-8080-exec-5] i.group.SchematronValidationController   : Validation report of document with id: 110 - is in file D:\Schematron SEMDValidationLogs\d110t20230919210353validationMessages.txt!
+2023-09-19T21:04:19.579+03:00  INFO 21948 --- [http-nio-8080-exec-6] i.group.SchematronValidationController   : Request to validate medicine document with id: 110 
+2023-09-19T21:04:20.281+03:00  INFO 21948 --- [http-nio-8080-exec-6] i.group.SchematronValidationController   : Found and load schematron of medicine document with id: 110 
+2023-09-19T21:04:20.313+03:00  INFO 21948 --- [http-nio-8080-exec-6] i.group.SchematronValidationController   : Validated medicine document with id: 110 
+2023-09-19T21:04:20.313+03:00  INFO 21948 --- [http-nio-8080-exec-6] i.group.SchematronValidationController   : Result of validation: true 
+2023-09-19T21:04:20.342+03:00  INFO 21948 --- [http-nio-8080-exec-6] i.group.SchematronValidationController   : Validation report of document with id: 110 - is in file D:\Schematron SEMDValidationLogs\d110t20230919210420validationMessages.txt!
+2023-09-19T21:05:57.319+03:00  INFO 21948 --- [http-nio-8080-exec-9] i.group.SchematronValidationController   : Request to validate medicine document with id: 110 
+2023-09-19T21:05:57.934+03:00  INFO 21948 --- [http-nio-8080-exec-9] i.group.SchematronValidationController   : Found and load schematron of medicine document with id: 110 
+2023-09-19T21:05:57.960+03:00  INFO 21948 --- [http-nio-8080-exec-9] i.group.SchematronValidationController   : Validated medicine document with id: 110 
+2023-09-19T21:05:57.960+03:00  INFO 21948 --- [http-nio-8080-exec-9] i.group.SchematronValidationController   : Result of validation: false 
+2023-09-19T21:05:57.961+03:00  INFO 21948 --- [http-nio-8080-exec-9] i.group.SchematronValidationController   : Validation messages of document with id: 110 - are in file D:\Schematron SEMDValidationLogs\d110t20230919210557validationMessages.txt!
+2023-09-19T21:05:57.984+03:00  INFO 21948 --- [http-nio-8080-exec-9] i.group.SchematronValidationController   : Validation report of document with id: 110 - is in file D:\Schematron SEMDValidationLogs\d110t20230919210557validationMessages.txt!
+2023-09-19T21:07:16.901+03:00  INFO 21948 --- [http-nio-8080-exec-1] i.group.SchematronValidationController   : Request to validate medicine document with id: 110 
+2023-09-19T21:07:17.445+03:00  INFO 21948 --- [http-nio-8080-exec-1] i.group.SchematronValidationController   : Found and load schematron of medicine document with id: 110 
+2023-09-19T21:07:17.472+03:00  INFO 21948 --- [http-nio-8080-exec-1] i.group.SchematronValidationController   : Validated medicine document with id: 110 
+2023-09-19T21:07:17.472+03:00  INFO 21948 --- [http-nio-8080-exec-1] i.group.SchematronValidationController   : Result of validation: true 
+2023-09-19T21:07:17.496+03:00  INFO 21948 --- [http-nio-8080-exec-1] i.group.SchematronValidationController   : Validation report of document with id: 110 - is in file D:\Schematron SEMDValidationLogs\d110t20230919210717validationMessages.txt!
+2023-09-19T21:09:02.583+03:00  INFO 21948 --- [http-nio-8080-exec-5] i.group.SchematronValidationController   : Request to validate medicine document with id: 110 
+2023-09-19T21:09:03.153+03:00  INFO 21948 --- [http-nio-8080-exec-5] i.group.SchematronValidationController   : Found and load schematron of medicine document with id: 110 
+2023-09-19T21:09:03.174+03:00  INFO 21948 --- [http-nio-8080-exec-5] i.group.SchematronValidationController   : Validated medicine document with id: 110 
+2023-09-19T21:09:03.175+03:00  INFO 21948 --- [http-nio-8080-exec-5] i.group.SchematronValidationController   : Result of validation: false 
+2023-09-19T21:09:03.175+03:00  INFO 21948 --- [http-nio-8080-exec-5] i.group.SchematronValidationController   : Validation messages of document with id: 110 - are in file D:\Schematron SEMDValidationLogs\d110t20230919210903validationMessages.txt!
+2023-09-19T21:09:03.194+03:00  INFO 21948 --- [http-nio-8080-exec-5] i.group.SchematronValidationController   : Validation report of document with id: 110 - is in file D:\Schematron SEMDValidationLogs\d110t20230919210903validationMessages.txt!
+2023-09-19T21:09:23.857+03:00  INFO 21948 --- [http-nio-8080-exec-6] i.group.SchematronValidationController   : Request to validate medicine document with id: 110 
+2023-09-19T21:09:24.424+03:00  INFO 21948 --- [http-nio-8080-exec-6] i.group.SchematronValidationController   : Found and load schematron of medicine document with id: 110 
+2023-09-19T21:09:24.444+03:00  INFO 21948 --- [http-nio-8080-exec-6] i.group.SchematronValidationController   : Validated medicine document with id: 110 
+2023-09-19T21:09:24.444+03:00  INFO 21948 --- [http-nio-8080-exec-6] i.group.SchematronValidationController   : Result of validation: true 
+2023-09-19T21:09:24.473+03:00  INFO 21948 --- [http-nio-8080-exec-6] i.group.SchematronValidationController   : Validation report of document with id: 110 - is in file D:\Schematron SEMDValidationLogs\d110t20230919210924validationMessages.txt!
+2023-09-19T21:09:47.584+03:00  INFO 21948 --- [http-nio-8080-exec-7] i.group.SchematronValidationController   : Request to validate medicine document with id: 110 
+2023-09-19T21:09:48.114+03:00  INFO 21948 --- [http-nio-8080-exec-7] i.group.SchematronValidationController   : Found and load schematron of medicine document with id: 110 
+2023-09-19T21:09:48.136+03:00  INFO 21948 --- [http-nio-8080-exec-7] i.group.SchematronValidationController   : Validated medicine document with id: 110 
+2023-09-19T21:09:48.136+03:00  INFO 21948 --- [http-nio-8080-exec-7] i.group.SchematronValidationController   : Result of validation: false 
+2023-09-19T21:09:48.136+03:00  INFO 21948 --- [http-nio-8080-exec-7] i.group.SchematronValidationController   : Validation messages of document with id: 110 - are in file D:\Schematron SEMDValidationLogs\d110t20230919210948validationMessages.txt!
+2023-09-19T21:09:48.154+03:00  INFO 21948 --- [http-nio-8080-exec-7] i.group.SchematronValidationController   : Validation report of document with id: 110 - is in file D:\Schematron SEMDValidationLogs\d110t20230919210948validationMessages.txt!
+2023-09-19T21:10:16.384+03:00  INFO 21948 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-19T21:25:44.176+03:00  INFO 16396 --- [main] itworks.group.SchematronValidator        : Starting SchematronValidator using Java 17 with PID 16396 (D:\Programming\JavaProjects\SchematronValidator\target\classes started by User in D:\Programming\JavaProjects\SchematronValidator)
+2023-09-19T21:25:44.181+03:00  INFO 16396 --- [main] itworks.group.SchematronValidator        : No active profile set, falling back to 1 default profile: "default"
+2023-09-19T21:25:45.368+03:00  INFO 16396 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-19T21:25:45.436+03:00  INFO 16396 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 1 JPA repository interfaces.
+2023-09-19T21:25:46.325+03:00  INFO 16396 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-09-19T21:25:46.346+03:00  INFO 16396 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-19T21:25:46.347+03:00  INFO 16396 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-19T21:25:46.492+03:00  INFO 16396 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-19T21:25:46.492+03:00  INFO 16396 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2181 ms
+2023-09-19T21:25:46.693+03:00  INFO 16396 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-19T21:25:46.787+03:00  INFO 16396 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-09-19T21:25:46.790+03:00  INFO 16396 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-09-19T21:25:46.983+03:00  INFO 16396 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-19T21:25:47.162+03:00  INFO 16396 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-19T21:25:47.614+03:00  INFO 16396 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-19T21:25:48.415+03:00  INFO 16396 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-19T21:25:48.449+03:00  INFO 16396 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-19T21:25:48.880+03:00  INFO 16396 --- [main] i.group.SchematronValidationController   : Controller initializing...
+2023-09-19T21:25:48.930+03:00  WARN 16396 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-19T21:25:49.396+03:00  INFO 16396 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-19T21:25:49.410+03:00  INFO 16396 --- [main] itworks.group.SchematronValidator        : Started SchematronValidator in 5.949 seconds (process running for 6.519)
+2023-09-19T21:25:49.415+03:00  INFO 16396 --- [main] o.s.boot.SpringApplication               : Starting application with 3 args
+2023-09-19T21:25:56.841+03:00  INFO 16396 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-19T21:25:56.841+03:00  INFO 16396 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-19T21:25:56.844+03:00  INFO 16396 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-09-19T21:25:56.911+03:00  INFO 16396 --- [http-nio-8080-exec-1] i.group.SchematronValidationController   : Request to validate medicine document with id: 110 
+2023-09-19T21:25:57.095+03:00  INFO 16396 --- [http-nio-8080-exec-1] i.group.SchematronValidationController   : Found schematron of medicine document with id: 110 
+2023-09-19T21:25:59.496+03:00  INFO 16396 --- [http-nio-8080-exec-1] i.group.SchematronValidationController   : Loaded schematron of medicine document with id: 110 
+2023-09-19T21:25:59.613+03:00  INFO 16396 --- [http-nio-8080-exec-1] i.group.SchematronValidationController   : Validated medicine document with id: 110 
+2023-09-19T21:25:59.613+03:00  INFO 16396 --- [http-nio-8080-exec-1] i.group.SchematronValidationController   : Result of validation: false 
+2023-09-19T21:25:59.613+03:00  INFO 16396 --- [http-nio-8080-exec-1] i.group.SchematronValidationController   : Saving validation results of medicine document with id: 110 
+2023-09-19T21:25:59.617+03:00  INFO 16396 --- [http-nio-8080-exec-1] i.group.SchematronValidationController   : Validation messages of document with id: 110 - are in file D:\Schematron SEMDValidationLogs\d110t20230919212559validationMessages.txt!
+2023-09-19T21:25:59.670+03:00  INFO 16396 --- [http-nio-8080-exec-1] i.group.SchematronValidationController   : Validation report of document with id: 110 - is in file D:\Schematron SEMDValidationLogs\d110t20230919212559validationMessages.txt!
+2023-09-19T21:26:40.709+03:00  INFO 16396 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-19T21:34:19.000+03:00  INFO 7124 --- [main] itworks.group.SchematronValidator        : Starting SchematronValidator using Java 17 with PID 7124 (D:\Programming\JavaProjects\SchematronValidator\target\classes started by User in D:\Programming\JavaProjects\SchematronValidator)
+2023-09-19T21:34:19.006+03:00  INFO 7124 --- [main] itworks.group.SchematronValidator        : No active profile set, falling back to 1 default profile: "default"
+2023-09-19T21:34:20.268+03:00  INFO 7124 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-19T21:34:20.350+03:00  INFO 7124 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59 ms. Found 1 JPA repository interfaces.
+2023-09-19T21:34:21.222+03:00  INFO 7124 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-09-19T21:34:21.237+03:00  INFO 7124 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-19T21:34:21.237+03:00  INFO 7124 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-19T21:34:21.379+03:00  INFO 7124 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-19T21:34:21.380+03:00  INFO 7124 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2205 ms
+2023-09-19T21:34:21.571+03:00  INFO 7124 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-19T21:34:21.670+03:00  INFO 7124 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-09-19T21:34:21.672+03:00  INFO 7124 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-09-19T21:34:21.869+03:00  INFO 7124 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-19T21:34:22.046+03:00  INFO 7124 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-19T21:34:22.489+03:00  INFO 7124 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-19T21:34:23.591+03:00  INFO 7124 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-19T21:34:24.088+03:00  INFO 7124 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-19T21:34:24.552+03:00  INFO 7124 --- [main] i.group.SchematronValidationController   : Controller initializing...
+2023-09-19T21:34:24.609+03:00  WARN 7124 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-19T21:34:25.127+03:00  INFO 7124 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-19T21:34:25.139+03:00  INFO 7124 --- [main] itworks.group.SchematronValidator        : Started SchematronValidator in 6.844 seconds (process running for 7.411)
+2023-09-19T21:34:25.143+03:00  INFO 7124 --- [main] o.s.boot.SpringApplication               : Starting application with 3 args
+2023-09-19T21:34:57.854+03:00  INFO 7124 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-19T21:34:57.854+03:00  INFO 7124 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-19T21:34:57.856+03:00  INFO 7124 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-09-19T21:34:57.945+03:00  INFO 7124 --- [http-nio-8080-exec-1] i.group.SchematronValidationController   : Request to validate medicine document with id: 110 
+2023-09-19T21:34:58.178+03:00  INFO 7124 --- [http-nio-8080-exec-1] i.group.SchematronValidationController   : Couldn't found schematron of medicine document with id: 110 
+2023-09-19T21:35:11.515+03:00  INFO 7124 --- [http-nio-8080-exec-3] i.group.SchematronValidationController   : Request to create or update schematron of medicine document with id: 110 
+2023-09-19T21:35:11.519+03:00  INFO 7124 --- [http-nio-8080-exec-3] i.group.SchematronValidationController   : Created new schematron of medicine document with id: 110
+2023-09-19T21:35:14.445+03:00  INFO 7124 --- [http-nio-8080-exec-4] i.group.SchematronValidationController   : Request to get schematron of medicine document with id: 110 
+2023-09-19T21:35:14.471+03:00  INFO 7124 --- [http-nio-8080-exec-4] i.group.SchematronValidationController   : Found schematron of medicine document with id: 110 
+2023-09-19T21:35:19.546+03:00  INFO 7124 --- [http-nio-8080-exec-5] i.group.SchematronValidationController   : Request to validate medicine document with id: 110 
+2023-09-19T21:35:19.554+03:00  INFO 7124 --- [http-nio-8080-exec-5] i.group.SchematronValidationController   : Found schematron of medicine document with id: 110 
+2023-09-19T21:35:21.935+03:00  INFO 7124 --- [http-nio-8080-exec-5] i.group.SchematronValidationController   : Loaded schematron of medicine document with id: 110 
+2023-09-19T21:35:22.044+03:00  INFO 7124 --- [http-nio-8080-exec-5] i.group.SchematronValidationController   : Validated medicine document with id: 110 
+2023-09-19T21:35:22.044+03:00  INFO 7124 --- [http-nio-8080-exec-5] i.group.SchematronValidationController   : Result of validation: false 
+2023-09-19T21:35:22.044+03:00  INFO 7124 --- [http-nio-8080-exec-5] i.group.SchematronValidationController   : Saving validation results of medicine document with id: 110 
+2023-09-19T21:35:22.048+03:00  INFO 7124 --- [http-nio-8080-exec-5] i.group.SchematronValidationController   : Validation messages of document with id: 110 - are in file D:\Schematron SEMDValidationLogs\d110t20230919213522validationMessages.txt!
+2023-09-19T21:35:22.098+03:00  INFO 7124 --- [http-nio-8080-exec-5] i.group.SchematronValidationController   : Validation report of document with id: 110 - is in file D:\Schematron SEMDValidationLogs\d110t20230919213522validationMessages.txt!
+2023-09-19T21:35:39.274+03:00  INFO 7124 --- [http-nio-8080-exec-6] i.group.SchematronValidationController   : Request to validate medicine document with id: 110 
+2023-09-19T21:35:39.279+03:00  INFO 7124 --- [http-nio-8080-exec-6] i.group.SchematronValidationController   : Found schematron of medicine document with id: 110 
+2023-09-19T21:35:40.240+03:00  INFO 7124 --- [http-nio-8080-exec-6] i.group.SchematronValidationController   : Loaded schematron of medicine document with id: 110 
+2023-09-19T21:35:40.299+03:00  INFO 7124 --- [http-nio-8080-exec-6] i.group.SchematronValidationController   : Validated medicine document with id: 110 
+2023-09-19T21:35:40.300+03:00  INFO 7124 --- [http-nio-8080-exec-6] i.group.SchematronValidationController   : Result of validation: false 
+2023-09-19T21:35:40.300+03:00  INFO 7124 --- [http-nio-8080-exec-6] i.group.SchematronValidationController   : Saving validation results of medicine document with id: 110 
+2023-09-19T21:35:40.302+03:00  INFO 7124 --- [http-nio-8080-exec-6] i.group.SchematronValidationController   : Validation messages of document with id: 110 - are in file D:\Schematron SEMDValidationLogs\d110t20230919213540validationMessages.txt!
+2023-09-19T21:35:40.350+03:00  INFO 7124 --- [http-nio-8080-exec-6] i.group.SchematronValidationController   : Validation report of document with id: 110 - is in file D:\Schematron SEMDValidationLogs\d110t20230919213540validationMessages.txt!
+2023-09-19T21:44:36.651+03:00  INFO 7124 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-19T21:48:16.319+03:00  INFO 8560 --- [main] itworks.group.SchematronValidator        : Starting SchematronValidator using Java 17 with PID 8560 (D:\Programming\JavaProjects\SchematronValidator\target\classes started by User in D:\Programming\JavaProjects\SchematronValidator)
+2023-09-19T21:48:16.322+03:00  INFO 8560 --- [main] itworks.group.SchematronValidator        : No active profile set, falling back to 1 default profile: "default"
+2023-09-19T21:48:17.101+03:00  INFO 8560 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-19T21:48:17.167+03:00  INFO 8560 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 1 JPA repository interfaces.
+2023-09-19T21:48:17.805+03:00  INFO 8560 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-09-19T21:48:17.818+03:00  INFO 8560 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-19T21:48:17.818+03:00  INFO 8560 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-19T21:48:17.941+03:00  INFO 8560 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-19T21:48:17.942+03:00  INFO 8560 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1536 ms
+2023-09-19T21:48:18.089+03:00  INFO 8560 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-19T21:48:18.156+03:00  INFO 8560 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-09-19T21:48:18.158+03:00  INFO 8560 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-09-19T21:48:18.349+03:00  INFO 8560 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-19T21:48:18.484+03:00  INFO 8560 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-19T21:48:18.891+03:00  INFO 8560 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-19T21:48:19.568+03:00  INFO 8560 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-19T21:48:19.607+03:00  INFO 8560 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-19T21:48:19.897+03:00  INFO 8560 --- [main] i.group.SchematronValidationController   : Controller initializing...
+2023-09-19T21:48:19.932+03:00  WARN 8560 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-19T21:48:20.294+03:00  INFO 8560 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-19T21:48:20.303+03:00  INFO 8560 --- [main] itworks.group.SchematronValidator        : Started SchematronValidator in 4.55 seconds (process running for 4.968)
+2023-09-19T21:48:20.306+03:00  INFO 8560 --- [main] o.s.boot.SpringApplication               : Starting application with 0 args
+2023-09-19T21:48:54.939+03:00  INFO 8560 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-19T21:48:54.940+03:00  INFO 8560 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-19T21:48:54.941+03:00  INFO 8560 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-09-19T21:48:54.982+03:00  INFO 8560 --- [http-nio-8080-exec-1] i.group.SchematronValidationController   : Request to get schematron of medicine document with id: 186 
+2023-09-19T21:48:55.129+03:00  INFO 8560 --- [http-nio-8080-exec-1] i.group.SchematronValidationController   : Couldn't found schematron of medicine document with id: 186 
+2023-09-19T21:48:59.187+03:00  INFO 8560 --- [http-nio-8080-exec-5] i.group.SchematronValidationController   : Request to get schematron of medicine document with id: 110 
+2023-09-19T21:48:59.207+03:00  INFO 8560 --- [http-nio-8080-exec-5] i.group.SchematronValidationController   : Found schematron of medicine document with id: 110 
+2023-09-19T21:51:17.507+03:00  INFO 10052 --- [main] itworks.group.SchematronValidator        : Starting SchematronValidator v1.0-SNAPSHOT using Java 17 with PID 10052 (D:\Programming\JavaProjects\SchematronValidator\target\schematron-validator-1.0-SNAPSHOT.jar started by User in D:\Programming\JavaProjects\SchematronValidator)
+2023-09-19T21:51:17.513+03:00  INFO 10052 --- [main] itworks.group.SchematronValidator        : No active profile set, falling back to 1 default profile: "default"
+2023-09-19T21:51:19.137+03:00  INFO 10052 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-19T21:51:19.233+03:00  INFO 10052 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 73 ms. Found 1 JPA repository interfaces.
+2023-09-19T21:51:20.433+03:00  INFO 10052 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-09-19T21:51:20.450+03:00  INFO 10052 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-19T21:51:20.450+03:00  INFO 10052 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-19T21:51:20.591+03:00  INFO 10052 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-19T21:51:20.592+03:00  INFO 10052 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2903 ms
+2023-09-19T21:51:20.931+03:00  INFO 10052 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-19T21:51:21.166+03:00  INFO 10052 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-09-19T21:51:21.182+03:00  INFO 10052 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-09-19T21:51:22.180+03:00  INFO 10052 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-19T21:51:22.355+03:00  INFO 10052 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-19T21:51:22.766+03:00  INFO 10052 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-19T21:51:23.722+03:00  INFO 10052 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-19T21:51:24.245+03:00  INFO 10052 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-19T21:51:24.798+03:00  WARN 10052 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-19T21:51:25.324+03:00  INFO 10052 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-19T21:51:25.357+03:00  INFO 10052 --- [main] itworks.group.SchematronValidator        : Started SchematronValidator in 8.998 seconds (process running for 10.691)
+2023-09-19T21:51:30.436+03:00  INFO 10052 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-19T21:51:30.437+03:00  INFO 10052 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-19T21:51:30.439+03:00  INFO 10052 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-09-19T21:51:40.464+03:00  INFO 10052 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'

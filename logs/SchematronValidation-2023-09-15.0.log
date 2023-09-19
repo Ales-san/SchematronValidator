@@ -1,0 +1,90 @@
+2023-09-15T15:24:38.901+03:00  INFO 25408 --- [main] itworks.group.SchematronValidator        : Starting SchematronValidator using Java 17 with PID 25408 (D:\Programming\JavaProjects\SchematronValidator\target\classes started by User in D:\Programming\JavaProjects\SchematronValidator)
+2023-09-15T15:24:38.905+03:00  INFO 25408 --- [main] itworks.group.SchematronValidator        : No active profile set, falling back to 1 default profile: "default"
+2023-09-15T15:24:40.050+03:00  INFO 25408 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-15T15:24:40.129+03:00  INFO 25408 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57 ms. Found 1 JPA repository interfaces.
+2023-09-15T15:24:41.044+03:00  INFO 25408 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-09-15T15:24:41.063+03:00  INFO 25408 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-15T15:24:41.064+03:00  INFO 25408 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-15T15:24:41.204+03:00  INFO 25408 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-15T15:24:41.204+03:00  INFO 25408 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2171 ms
+2023-09-15T15:24:41.392+03:00  INFO 25408 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-15T15:24:41.485+03:00  INFO 25408 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-09-15T15:24:41.488+03:00  INFO 25408 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-09-15T15:24:41.723+03:00  INFO 25408 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-15T15:24:41.899+03:00  INFO 25408 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-15T15:24:42.494+03:00  INFO 25408 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-15T15:24:43.251+03:00  INFO 25408 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-15T15:24:43.282+03:00  INFO 25408 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-15T15:24:43.764+03:00  WARN 25408 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-15T15:24:44.256+03:00  INFO 25408 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-15T15:24:44.268+03:00  INFO 25408 --- [main] itworks.group.SchematronValidator        : Started SchematronValidator in 6.088 seconds (process running for 6.662)
+2023-09-15T15:25:35.225+03:00  INFO 25408 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-15T15:25:39.537+03:00  INFO 14468 --- [main] itworks.group.SchematronValidator        : Starting SchematronValidator using Java 17 with PID 14468 (D:\Programming\JavaProjects\SchematronValidator\target\classes started by User in D:\Programming\JavaProjects\SchematronValidator)
+2023-09-15T15:25:39.542+03:00  INFO 14468 --- [main] itworks.group.SchematronValidator        : No active profile set, falling back to 1 default profile: "default"
+2023-09-15T15:25:40.664+03:00  INFO 14468 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-15T15:25:40.757+03:00  INFO 14468 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 81 ms. Found 1 JPA repository interfaces.
+2023-09-15T15:25:41.659+03:00  INFO 14468 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-09-15T15:25:41.674+03:00  INFO 14468 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-15T15:25:41.674+03:00  INFO 14468 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-15T15:25:41.813+03:00  INFO 14468 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-15T15:25:41.814+03:00  INFO 14468 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2135 ms
+2023-09-15T15:25:42.021+03:00  INFO 14468 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-15T15:25:42.103+03:00  INFO 14468 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-09-15T15:25:42.106+03:00  INFO 14468 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-09-15T15:25:42.323+03:00  INFO 14468 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-15T15:25:42.520+03:00  INFO 14468 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-15T15:25:43.005+03:00  INFO 14468 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-15T15:25:43.873+03:00  INFO 14468 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-15T15:25:43.908+03:00  INFO 14468 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-15T15:25:44.391+03:00  WARN 14468 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-15T15:25:44.879+03:00  INFO 14468 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-15T15:25:44.892+03:00  INFO 14468 --- [main] itworks.group.SchematronValidator        : Started SchematronValidator in 6.089 seconds (process running for 6.695)
+2023-09-15T15:26:14.383+03:00  INFO 14468 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-15T15:37:37.670+03:00  INFO 1300 --- [main] itworks.group.SchematronValidator        : Starting SchematronValidator v1.0-SNAPSHOT using Java 17 with PID 1300 (D:\Programming\JavaProjects\SchematronValidator\target\schematron-validator-1.0-SNAPSHOT.jar started by User in D:\Programming\JavaProjects\SchematronValidator)
+2023-09-15T15:37:37.732+03:00  INFO 1300 --- [main] itworks.group.SchematronValidator        : No active profile set, falling back to 1 default profile: "default"
+2023-09-15T15:37:39.682+03:00  INFO 1300 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-15T15:37:39.858+03:00  INFO 1300 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 156 ms. Found 1 JPA repository interfaces.
+2023-09-15T15:37:41.559+03:00  INFO 1300 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-09-15T15:37:41.584+03:00  INFO 1300 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-15T15:37:41.585+03:00  INFO 1300 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-15T15:37:41.833+03:00  INFO 1300 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-15T15:37:41.837+03:00  INFO 1300 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3942 ms
+2023-09-15T15:37:42.276+03:00  INFO 1300 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-15T15:37:42.453+03:00  INFO 1300 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-09-15T15:37:42.461+03:00  INFO 1300 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-09-15T15:37:43.462+03:00  INFO 1300 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-15T15:37:43.917+03:00  INFO 1300 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-15T15:37:44.736+03:00  INFO 1300 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-15T15:37:46.222+03:00  INFO 1300 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-15T15:37:46.300+03:00  INFO 1300 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-15T15:37:47.430+03:00  WARN 1300 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-15T15:37:48.792+03:00  INFO 1300 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-15T15:37:48.896+03:00  INFO 1300 --- [main] itworks.group.SchematronValidator        : Started SchematronValidator in 12.682 seconds (process running for 14.456)
+2023-09-15T15:38:09.420+03:00  INFO 1300 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-15T15:38:09.422+03:00  INFO 1300 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-15T15:38:09.427+03:00  INFO 1300 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-09-15T15:38:25.796+03:00  INFO 1300 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-15T17:14:57.178+03:00  INFO 25168 --- [main] itworks.group.SchematronValidator        : Starting SchematronValidator using Java 17 with PID 25168 (D:\Programming\JavaProjects\SchematronValidator\target\classes started by User in D:\Programming\JavaProjects\SchematronValidator)
+2023-09-15T17:14:57.234+03:00  INFO 25168 --- [main] itworks.group.SchematronValidator        : No active profile set, falling back to 1 default profile: "default"
+2023-09-15T17:14:58.767+03:00  INFO 25168 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-15T17:14:58.878+03:00  INFO 25168 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 90 ms. Found 1 JPA repository interfaces.
+2023-09-15T17:15:00.040+03:00  INFO 25168 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-09-15T17:15:00.079+03:00  INFO 25168 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-15T17:15:00.080+03:00  INFO 25168 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-15T17:15:00.286+03:00  INFO 25168 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-15T17:15:00.287+03:00  INFO 25168 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2916 ms
+2023-09-15T17:15:00.565+03:00  INFO 25168 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-15T17:15:00.692+03:00  INFO 25168 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-09-15T17:15:00.695+03:00  INFO 25168 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-09-15T17:15:01.273+03:00  INFO 25168 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-15T17:15:01.631+03:00  INFO 25168 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-15T17:15:02.882+03:00  INFO 25168 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-15T17:15:03.941+03:00  INFO 25168 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-15T17:15:03.989+03:00  INFO 25168 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-15T17:15:04.620+03:00  WARN 25168 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-15T17:15:05.273+03:00  INFO 25168 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-15T17:15:05.289+03:00  INFO 25168 --- [main] itworks.group.SchematronValidator        : Started SchematronValidator in 9.945 seconds (process running for 17.142)
+2023-09-15T17:15:52.132+03:00  INFO 25168 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-15T17:15:52.133+03:00  INFO 25168 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-15T17:15:52.141+03:00  INFO 25168 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2023-09-15T17:19:16.248+03:00  INFO 25168 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'

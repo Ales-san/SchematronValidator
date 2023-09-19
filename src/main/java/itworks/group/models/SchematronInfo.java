@@ -3,6 +3,9 @@ package itworks.group.models;
 
 import jakarta.persistence.*;
 
+import java.time.LocalDateTime;
+import java.util.Date;
+
 @Entity
 public class SchematronInfo {
     @Id
@@ -13,11 +16,15 @@ public class SchematronInfo {
     private int medDocumentID;
 
     @Column(nullable = true)
+    private LocalDateTime medDocumentUpdateDate;
+
+    @Column(nullable = true)
     private String data;
 
     public SchematronInfo(int medDocumentID, String data) {
         this.medDocumentID = medDocumentID;
         this.data = data;
+        this.medDocumentUpdateDate = LocalDateTime.now();
     }
 
     public SchematronInfo() {
@@ -41,5 +48,13 @@ public class SchematronInfo {
 
     public void setData(String data) {
         this.data = data;
+    }
+
+    public LocalDateTime getMedDocumentUpdateDate() {
+        return medDocumentUpdateDate;
+    }
+
+    public void setMedDocumentUpdateDate(LocalDateTime medDocumentUpdateDate) {
+        this.medDocumentUpdateDate = medDocumentUpdateDate;
     }
 }
