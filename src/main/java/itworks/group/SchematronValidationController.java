@@ -45,7 +45,7 @@ public class SchematronValidationController {
     //    @ResponseBody
     @PostMapping("/create-update-schematron")
     public ResponseEntity<Boolean> createOrUpdateSchematron(
-            @RequestParam(value = "medDocumentID") int documentID,
+            @RequestParam(value = "medDocumentID") String documentID,
             @RequestBody String documentData) {
         logger.info("Request to create or update schematron of medicine document with id: {} ", documentID);
         try {
@@ -70,7 +70,7 @@ public class SchematronValidationController {
     //    @ResponseBody
     @GetMapping("/get-schematron")
     public ResponseEntity<SchematronInfo> getSchematron(
-            @RequestParam(value = "medDocumentID") int documentID) {
+            @RequestParam(value = "medDocumentID") String documentID) {
         logger.info("Request to get schematron of medicine document with id: {} ", documentID);
         try {
             SchematronInfo result = repository.findByMedDocumentIDEquals(documentID);
@@ -90,7 +90,7 @@ public class SchematronValidationController {
     //    @ResponseBody
     @PostMapping("/validate")
     public ResponseEntity<ValidationResult> validateDocument(
-            @RequestParam(value = "medDocumentID") int documentID,
+            @RequestParam(value = "medDocumentID") String documentID,
             @RequestBody String documentData) {
         logger.info("Request to validate medicine document with id: {} ", documentID);
         try {
@@ -129,7 +129,7 @@ public class SchematronValidationController {
         }
     }
 
-    private void saveValidationResult(Result schematronOutput, int documentID) throws Exception {
+    private void saveValidationResult(Result schematronOutput, String documentID) throws Exception {
         logger.info("Saving validation results of medicine document with id: {} ", documentID);
         String reportPath = env.getProperty("reportPath");
         if (reportPath == null || !(new File(reportPath).isDirectory())) {

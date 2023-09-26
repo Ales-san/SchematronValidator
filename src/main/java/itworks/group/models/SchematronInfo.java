@@ -13,7 +13,7 @@ public class SchematronInfo {
     private int id;
 
     @Column(nullable = false)
-    private int medDocumentID;
+    private String medDocumentID;
 
     @Column(nullable = true)
     private LocalDateTime medDocumentUpdateDate;
@@ -21,7 +21,7 @@ public class SchematronInfo {
     @Column(nullable = true)
     private String data;
 
-    public SchematronInfo(int medDocumentID, String data) {
+    public SchematronInfo(String medDocumentID, String data) {
         this.medDocumentID = medDocumentID;
         this.data = data;
         this.medDocumentUpdateDate = LocalDateTime.now();
@@ -34,7 +34,7 @@ public class SchematronInfo {
         return id;
     }
 
-    public int getMedDocumentID() {
+    public String getMedDocumentID() {
         return medDocumentID;
     }
 
@@ -42,7 +42,7 @@ public class SchematronInfo {
         return data;
     }
 
-    public void setMedDocumentID(int medDocumentID) {
+    public void setMedDocumentID(String medDocumentID) {
         this.medDocumentID = medDocumentID;
     }
 
