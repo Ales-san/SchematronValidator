@@ -17,8 +17,28 @@ or
 ```
 java -jar .\target\schematron-validator-1.0-SNAPSHOT.jar
 ```
-Path to directory for validation results saving is in file application.properties: reportPath. <br>
-Examples of requests could be found in postman collection (link in the beginning of description or in file Validator.postman_collection.json in this repository).
+or for launch in the background
+```
+javaw -jar .\target\schematron-validator-1.0-SNAPSHOT.jar
+```
+Command 
+```
+taskkill /F /PID {applicationPID}
+```
+can be used to stop application with PID from logs. <br>
+Example line from logs: <br>
+2023-09-28T11:20:23.124+03:00  INFO 20128 --- [main] itworks.group.SchematronValidator        : Starting SchematronValidator v1.0-SNAPSHOT using Java 17 with PID 20128 <br>
+
+Jar-file and files with properties: application.properties and persistence.properties are required to run an application. <br>
+
+In file application.properties: <br>
+Field reportPath - path to directory for validation results saving; <br>
+Fields logging.* - parameters for saving logs: path to directory for logs saving, file name for saving the newest logs, pattern for saving old logs, max number of log files; <br>
+в поле server.port - port used by this application; <br>
+
+Examples of requests could be found in postman collection (link in the beginning of description or in file Validator.postman_collection.json in this repository). <br>
+
+Sometimes it may be necessary to check reportsPath directory size, because these reports will not be deleted automatically. 
 
 ---
 
@@ -39,8 +59,25 @@ mvn spring-boot:run
 ```
 java -jar .\target\schematron-validator-1.0-SNAPSHOT.jar
 ```
+или для запуска в фоне
+```
+javaw -jar .\target\schematron-validator-1.0-SNAPSHOT.jar
+```
+Команда 
+```
+taskkill /F /PID {applicationPID}
+```
+может быть использована для остановки приложения с PID из логов. <br>
+Пример строки из логов с указанием PID: <br>
+2023-09-28T11:20:23.124+03:00  INFO 20128 --- [main] itworks.group.SchematronValidator        : Starting SchematronValidator v1.0-SNAPSHOT using Java 17 with PID 20128 <br>
 
-Адрес директории, в которую будет сохранен отчет по валидации
-и файл с перечнем ошибок, возникших в процессе валидации, 
-задается в файле application.properties в поле reportPath <br>
-Примеры запросов приведены в коллекции Postman (ссылка в начале описания или файл Validator.postman_collection.json в репозитории).
+Для запуска приложения требуется скачать jar-файл и файлы с настройками: application.properties и persistence.properties.
+
+В файле application.properties: <br>
+в поле reportPath - адрес директории, в которую будет сохранен отчет по валидации
+и файл с перечнем ошибок, возникших в процессе валидации; <br>
+в полях logging.* - параметры для сохранения логов: папка для сохранения логов, имя файла для сохранения последних логов, паттерн для сохранения старых логов, максимальное количество логов в папке; <br>
+в поле server.port - порт, на котором будет доступен сервис валидации; <br>
+
+Примеры запросов приведены в коллекции Postman (ссылка в начале описания или файл Validator.postman_collection.json в репозитории). <br>
+Также стоит следить за размером папки с данными отчетов о валидации (переменная reportPath), поскольку данные отчеты не удаляются автоматически.
