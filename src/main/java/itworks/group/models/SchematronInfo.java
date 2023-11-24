@@ -5,32 +5,82 @@ import jakarta.persistence.*;
 
 import java.time.LocalDateTime;
 import java.util.Date;
+import java.util.UUID;
 
 @Entity
 public class SchematronInfo {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private int id;
+    protected UUID id;
 
     @Column(nullable = false)
-    private String medDocumentID;
+    protected String medDocumentID;
 
     @Column(nullable = true)
-    private LocalDateTime medDocumentUpdateDate;
+    protected String commitHash;
 
     @Column(nullable = true)
-    private String data;
+    protected String link;
 
-    public SchematronInfo(String medDocumentID, String data) {
+    @Column(nullable = true)
+    protected String regexPattern;
+
+    @Column(nullable = true)
+    protected LocalDateTime medDocumentUpdateDate;
+
+    @Column(nullable = true)
+    protected UUID dataId;
+
+    public SchematronInfo(String medDocumentID, String data, LocalDateTime dateTime) {
+        SchematronData dataObj = new SchematronData(data);
         this.medDocumentID = medDocumentID;
-        this.data = data;
-        this.medDocumentUpdateDate = LocalDateTime.now();
+        this.dataId = dataObj.getId();
+        this.medDocumentUpdateDate = dateTime;
+    }
+
+    public SchematronInfo(String medDocumentID, String data)
+    {
+        this(medDocumentID, data, LocalDateTime.now());
+    }
+
+    public SchematronInfo(String medDocumentID,
+                          String commitHash,
+                          String link,
+                          String regexPattern,
+                          String data,
+                          LocalDateTime dateTime) {
+        this(medDocumentID, data, dateTime);
+        this.commitHash = commitHash;
+        this.link = link;
+        this.regexPattern = regexPattern;
+    }
+
+    public SchematronInfo(String medDocumentID,
+                          String commitHash,
+                          String link,
+                          String regexPattern,
+                          String data) {
+        this(medDocumentID, commitHash, link, regexPattern, data, LocalDateTime.now());
+    }
+
+    protected SchematronInfo(String medDocumentID,
+                             String commitHash,
+                             String link,
+                             String regexPattern,
+                             UUID dataId,
+                             LocalDateTime dateTime) {
+        this.medDocumentID = medDocumentID;
+        this.dataId = dataId;
+        this.medDocumentUpdateDate = dateTime;
+        this.commitHash = commitHash;
+        this.link = link;
+        this.regexPattern = regexPattern;
     }
 
     public SchematronInfo() {
     }
 
-    public int getId() {
+    public UUID getId() {
         return id;
     }
 
@@ -38,16 +88,16 @@ public class SchematronInfo {
         return medDocumentID;
     }
 
-    public String getData() {
-        return data;
+    public UUID getDataId() {
+        return dataId;
     }
 
     public void setMedDocumentID(String medDocumentID) {
         this.medDocumentID = medDocumentID;
     }
 
-    public void setData(String data) {
-        this.data = data;
+    public void setDataId(UUID dataId) {
+        this.dataId = dataId;
     }
 
     public LocalDateTime getMedDocumentUpdateDate() {
@@ -56,5 +106,29 @@ public class SchematronInfo {
 
     public void setMedDocumentUpdateDate(LocalDateTime medDocumentUpdateDate) {
         this.medDocumentUpdateDate = medDocumentUpdateDate;
+    }
+
+    public String getCommitHash() {
+        return commitHash;
+    }
+
+    public void setCommitHash(String commitHash) {
+        this.commitHash = commitHash;
+    }
+
+    public String getLink() {
+        return link;
+    }
+
+    public void setLink(String link) {
+        this.link = link;
+    }
+
+    public String getRegexPattern() {
+        return regexPattern;
+    }
+
+    public void setRegexPattern(String regexPattern) {
+        this.regexPattern = regexPattern;
     }
 }

@@ -9,12 +9,15 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
 import org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter;
+import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 import javax.sql.DataSource;
+import java.util.Objects;
 import java.util.Properties;
 
 @Configuration
 //@EnableJpaRepositories(basePackages = "itworks.group.repositories")
+//@EnableTransactionManagement
 public class DBConfig {
     @Autowired
     private Environment env;
@@ -22,7 +25,7 @@ public class DBConfig {
     @Bean
     public DataSource dataSource() {
         final DriverManagerDataSource dataSource = new DriverManagerDataSource();
-        dataSource.setDriverClassName(env.getProperty("driverClassName"));
+        dataSource.setDriverClassName(Objects.requireNonNull(env.getProperty("driverClassName")));
         dataSource.setUrl(env.getProperty("url"));
         dataSource.setUsername(env.getProperty("username"));
         dataSource.setPassword(env.getProperty("password"));
@@ -33,7 +36,7 @@ public class DBConfig {
     public LocalContainerEntityManagerFactoryBean entityManagerFactory() {
         final LocalContainerEntityManagerFactoryBean em = new LocalContainerEntityManagerFactoryBean();
         em.setDataSource(dataSource());
-        em.setPackagesToScan(new String[] { "itworks.group.models" });
+        em.setPackagesToScan("itworks.group.models");
         em.setJpaVendorAdapter(new HibernateJpaVendorAdapter());
         em.setJpaProperties(additionalProperties());
         return em;
