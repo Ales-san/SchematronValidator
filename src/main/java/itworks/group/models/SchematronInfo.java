@@ -31,50 +31,35 @@ public class SchematronInfo {
     @Column(nullable = true)
     protected UUID dataId;
 
-    public SchematronInfo(String medDocumentID, String data, LocalDateTime dateTime) {
-        SchematronData dataObj = new SchematronData(data);
-        this.medDocumentID = medDocumentID;
-        this.dataId = dataObj.getId();
-        this.medDocumentUpdateDate = dateTime;
-    }
-
-    public SchematronInfo(String medDocumentID, String data)
-    {
-        this(medDocumentID, data, LocalDateTime.now());
-    }
-
-    public SchematronInfo(String medDocumentID,
-                          String commitHash,
-                          String link,
-                          String regexPattern,
-                          String data,
-                          LocalDateTime dateTime) {
-        this(medDocumentID, data, dateTime);
-        this.commitHash = commitHash;
-        this.link = link;
-        this.regexPattern = regexPattern;
-    }
-
-    public SchematronInfo(String medDocumentID,
-                          String commitHash,
-                          String link,
-                          String regexPattern,
-                          String data) {
-        this(medDocumentID, commitHash, link, regexPattern, data, LocalDateTime.now());
-    }
-
-    protected SchematronInfo(String medDocumentID,
-                             String commitHash,
-                             String link,
-                             String regexPattern,
-                             UUID dataId,
-                             LocalDateTime dateTime) {
+    public SchematronInfo(String medDocumentID, UUID dataId, LocalDateTime dateTime) {
         this.medDocumentID = medDocumentID;
         this.dataId = dataId;
         this.medDocumentUpdateDate = dateTime;
+    }
+
+    public SchematronInfo(String medDocumentID, UUID dataId)
+    {
+        this(medDocumentID, dataId, LocalDateTime.now());
+    }
+
+    public SchematronInfo(String medDocumentID,
+                          String commitHash,
+                          String link,
+                          String regexPattern,
+                          UUID dataId,
+                          LocalDateTime dateTime) {
+        this(medDocumentID, dataId, dateTime);
         this.commitHash = commitHash;
         this.link = link;
         this.regexPattern = regexPattern;
+    }
+
+    public SchematronInfo(String medDocumentID,
+                          String commitHash,
+                          String link,
+                          String regexPattern,
+                          UUID dataId) {
+        this(medDocumentID, commitHash, link, regexPattern, dataId, LocalDateTime.now());
     }
 
     public SchematronInfo() {

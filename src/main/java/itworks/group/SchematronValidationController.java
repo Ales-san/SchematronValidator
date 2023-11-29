@@ -80,8 +80,10 @@ public class SchematronValidationController {
                 infoRepository.save(result.get());
                 logger.info("Updated schematron of medicine document with id: {} ", documentID);
             } else {
+                Optional<SchematronData> dataObj = Optional.of(new SchematronData(documentData));
+                dataRepository.save(dataObj.get());
                 logger.info("Created new schematron of medicine document with id: {}", documentID);
-                infoRepository.save(new SchematronInfo(documentID, commitHash, link, regexPattern, documentData));
+                infoRepository.save(new SchematronInfo(documentID, commitHash, link, regexPattern, dataObj.get().getId()));
             }
             return ResponseEntity.status(HttpStatus.OK).body(true);
         } catch (Exception e) {
