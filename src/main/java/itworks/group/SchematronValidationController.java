@@ -3,12 +3,14 @@ package itworks.group;
 import itworks.group.models.*;
 import itworks.group.repositories.SchematronDataRepository;
 import itworks.group.repositories.SchematronInfoRepository;
+import jakarta.transaction.Transactional;
 import org.apache.commons.collections4.IterableUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.core.env.Environment;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.web.bind.annotation.*;
 import org.w3c.dom.Document;
 
@@ -306,6 +308,57 @@ public class SchematronValidationController {
 
         }
 
+    }
+
+    //    @ResponseBody
+    @Transactional
+    @DeleteMapping("/delete/schematron")
+    public ResponseEntity<Void> deleteSchematron(
+            @RequestParam(value = "medDocumentID") String documentID,
+            @RequestParam(value = "password") String password) {
+        logger.info("Request to delete schematron of medicine document with id: {} ", documentID);
+        BCryptPasswordEncoder encoder = new BCryptPasswordEncoder(16);
+        if(!encoder.matches(password, "$2a$16$eFP1olC7aMvZVwio4HYgOun6KVsPsOiqtWkn89VcC/6zG1YDtWpZG")) {
+            return ResponseEntity.status(HttpStatus.FORBIDDEN).build();
+        }
+        try {
+            Optional<SchematronInfo> result = infoRepository.findByMedDocumentIDEquals(documentID);
+            if (result.isEmpty() || result.get().getDataId() == null) {
+                logger.info("Couldn't found schematron of medicine document with id: {} ", documentID);
+                return ResponseEntity.status(HttpStatus.NOT_FOUND).body(null);
+            }
+            logger.info("Found schematron info of medicine document with id: {} ", documentID);
+            dataRepository.deleteById(result.get().getDataId());
+            infoRepository.delete(result.get());
+            return ResponseEntity.status(HttpStatus.OK).build();
+        } catch (Exception e) {
+            e.printStackTrace();
+            logger.error("Error while deleting schematron of medicine document with id: {}!\n Error message: {}", documentID, e.getMessage());
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(null);
+        }
+    }
+
+    //    @ResponseBody
+    @Transactional
+    @DeleteMapping("/delete/all")
+    public ResponseEntity<Void> deleteAllSchematrons(
+            @RequestParam(value = "password") String password) {
+        logger.info("Request to delete all schematrons!");
+        BCryptPasswordEncoder encoder = new BCryptPasswordEncoder(16);
+//        String result = encoder.encode("myPassword");
+//        logger.info("Encoded password: {}!", result);
+        if(!encoder.matches(password, "$2a$16$eFP1olC7aMvZVwio4HYgOun6KVsPsOiqtWkn89VcC/6zG1YDtWpZG")) {
+            return ResponseEntity.status(HttpStatus.FORBIDDEN).build();
+        }
+        try {
+            dataRepository.deleteAll();
+            infoRepository.deleteAll();
+            return ResponseEntity.status(HttpStatus.OK).build();
+        } catch (Exception e) {
+            e.printStackTrace();
+            logger.error("Error while deleting all schematrons!\n Error message: {}", e.getMessage());
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
+        }
     }
 }
 
